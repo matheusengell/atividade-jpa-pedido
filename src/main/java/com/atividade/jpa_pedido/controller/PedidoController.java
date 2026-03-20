@@ -1,7 +1,7 @@
 package com.atividade.jpa_pedido.controller;
 
-import com.atividade.jpa_pedido.dto.PedidoRequisicaoDto;
-import com.atividade.jpa_pedido.dto.PedidoRespostaDto;
+import com.atividade.jpa_pedido.dto.pedido.PedidoRequisicaoDto;
+import com.atividade.jpa_pedido.dto.pedido.PedidoRespostaDto;
 import com.atividade.jpa_pedido.service.PedidoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

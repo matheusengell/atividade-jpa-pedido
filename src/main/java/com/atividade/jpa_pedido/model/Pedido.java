@@ -7,6 +7,7 @@ import jakarta.validation.constraints.Past;
 import lombok.*;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @AllArgsConstructor
@@ -25,8 +26,10 @@ public class Pedido {
     @JsonProperty("data_pedido")
     private LocalDate data_pedido;
 
-
     public Pedido(LocalDate data_pedido) {
         this.data_pedido = data_pedido;
     }
+
+    @OneToMany(mappedBy = "pedido")
+    private List<ItemPedido> itens;
 }

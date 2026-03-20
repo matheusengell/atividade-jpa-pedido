@@ -1,7 +1,6 @@
-package com.atividade.jpa_pedido.dto;
+package com.atividade.jpa_pedido.dto.pedido;
 
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Past;
 import jakarta.validation.constraints.PastOrPresent;
 
 import java.time.LocalDate;

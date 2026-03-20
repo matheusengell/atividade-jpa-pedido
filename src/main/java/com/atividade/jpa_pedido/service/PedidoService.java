@@ -1,7 +1,7 @@
 package com.atividade.jpa_pedido.service;
 
-import com.atividade.jpa_pedido.dto.PedidoRequisicaoDto;
-import com.atividade.jpa_pedido.dto.PedidoRespostaDto;
+import com.atividade.jpa_pedido.dto.pedido.PedidoRequisicaoDto;
+import com.atividade.jpa_pedido.dto.pedido.PedidoRespostaDto;
 import com.atividade.jpa_pedido.mapper.PedidoMapper;
 import com.atividade.jpa_pedido.model.Pedido;
 import com.atividade.jpa_pedido.repository.PedidoRepository;
